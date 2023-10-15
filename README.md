@@ -1,76 +1,70 @@
-# Book Catalog Online
+# Getting Started with Create React App
 
-This is a simple React web application that allows users to search for books using the Google Books API and add them to a book catalog. The project also incorporates client-side routing to navigate between different views.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- Search for books in the Google Books API catalog.
-- Add books from the search results to your personal catalog.
-- Navigate between the homepage and the book catalog using client-side routing.
+In the project directory, you can run:
 
-## Table of Contents
+### `npm start`
 
-- [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
-- [Installing](#installing)
-- [Usage](#usage)
-- [Built With](#built-with)
-- [License](#license)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Getting Started
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes. 
+### `npm test`
 
-## Prerequisites
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Before you begin, ensure you have met the following requirements:
+### `npm run build`
 
-- Node.js and npm installed on your machine.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Installing
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. Clone the repository:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-   ```bash
-   git clone <repository-url>
-   cd book-catalog-online
-   ```
+### `npm run eject`
 
-2. Install dependencies for the frontend:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-   ```bash
-   cd frontend
-   npm install
-   ```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-3. Start the JSON server for the backend:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-   ```bash
-   json-server --watch db.json --port 3000
-   ```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-4. In a separate terminal, start the React application:
+## Learn More
 
-   ```bash
-   npm start
-   ```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-The React application will launch in your default web browser.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Usage
+### Code Splitting
 
-- You can search for books using the search bar on the "Add Book" page.
-- Add books to your catalog by clicking the "Add to List" button.
-- Navigate between the homepage and the catalog using the navigation links.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Built With
+### Analyzing the Bundle Size
 
-- [React](https://reactjs.org/) - JavaScript library for building user interfaces.
-- [React Router](https://reactrouter.com/) - Declarative routing for React applications.
-- [json-server](https://github.com/typicode/json-server) - A fake REST API for testing and prototyping.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## License
+### Making a Progressive Web App
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-```
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
