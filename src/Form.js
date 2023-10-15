@@ -7,10 +7,10 @@ function Form() {
 
   useEffect(() => {
     // Fetch the list of books from the server when the component mounts
-    fetch('http://localhost:4000/books')
+    fetch('${process.env.REACT_APP_API_URL}/cats')
       .then((response) => response.json())
-      .then((data) => {
-        setBooks(data);
+      .then((setCats) => {
+        setBooks(setCats);
       })
       .catch((error) => {
         console.error('Error fetching books:', error);
@@ -25,7 +25,7 @@ function Form() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch('http://localhost:4000/books', {
+    fetch('${process.env.REACT_APP_API_URL}/cats', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(newBook),
